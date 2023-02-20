@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Artbot</title>
+    <link href="styles.css" type="text/css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="./image.svg" />
+  </head>
+
+  <body>
+    <center>
+      <form id="search">
+        <input type="text" id="artist" placeholder="Artist" />
+        <input type="text" id="album" placeholder="Album" />
+        <button>Submit</button>
+        <button id="reset">Reset</button>
+      </form>
+      <div class="results">
+        <div id="itunes"></div>
+        <div id="fanart"></div>
+        <div id="bandcamp"></div>
+      </div>
+    </center>
+  </body>
+  <script src="app.js"></script>
+</html>
